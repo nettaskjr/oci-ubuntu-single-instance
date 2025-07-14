@@ -1,1 +1,0 @@
-# oci-ubuntu-single-instance
