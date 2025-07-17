@@ -57,5 +57,11 @@ variable "boot_volume_size_in_gbs" {
 }
 
 variable "email" {
-  description = "E-mail do usuário para notificações."
+  description = "E-mail para registro do certificado SSL com Let's Encrypt."
+  type        = string
+}
+
+variable "domain_name" {
+  description = "O nome de domínio principal que será apontado para a instância (ex: exemplo.com)."
+  type        = string
 }
